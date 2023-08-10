@@ -7,6 +7,7 @@
     <VerificadorPalindromo />
     <VerificadorPalindromo2 />
     <BuscarCoincidencia /> <!-- Corrección del nombre del componente -->
+    <CadenaInvertida  />
   </div>
 </template>
 
@@ -17,7 +18,8 @@ import Usuarios from './components/Usuarios.vue';
 import TablaMultiplicar from './components/TablaMultiplicar.vue';
 import VerificadorPalindromo from './components/VerificadorPalindromo.vue';
 import VerificadorPalindromo2 from './components/VerificadorPalindromo2.vue';
-import BuscarCoincidencia from './components/BuscarCoincidencia.vue'; // Corrección del nombre del import
+import BuscarCoincidencia from './components/BuscarCoincidencia.vue';
+import CadenaInvertida from './components/CadenaInvertida.vue'
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     TablaMultiplicar,
     VerificadorPalindromo,
     VerificadorPalindromo2,
-    BuscarCoincidencia // Corrección del nombre del componente en el registro
+    BuscarCoincidencia,
+    CadenaInvertida
   }
 };
 </script>
