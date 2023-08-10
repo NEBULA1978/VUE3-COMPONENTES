@@ -15,6 +15,7 @@
     <ElementosComunes  />
     <Repeticiones  />
     <BuscarLetraMasRepetida  />
+    <ContarVocales  />
   </div>
 </template>
 
@@ -34,6 +35,7 @@ import InvertirNumero from './components/InvertirNumero.vue';
 import ElementosComunes from './components/ElementosComunes.vue';
 import Repeticiones from './components/Repeticiones.vue';
 import BuscarLetraMasRepetida from './components/BuscarLetraMasRepetida.vue';
+import ContarVocales from './components/ContarVocales.vue';
 
 export default {
   components: {
@@ -51,7 +53,8 @@ export default {
     InvertirNumero,
     ElementosComunes,
     Repeticiones,
-    BuscarLetraMasRepetida
+    BuscarLetraMasRepetida,
+    ContarVocales
   }
 };
 </script>
