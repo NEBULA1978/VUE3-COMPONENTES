@@ -12,6 +12,7 @@
     <Porcentaje  />
     <ContarImpares  />
     <InvertirNumero  />
+    <ElementosComunes  />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import CadenaInvertida from './components/CadenaInvertida.vue';
 import Porcentaje from './components/Porcentaje.vue';
 import ContarImpares from './components/ContarImpares.vue';
 import InvertirNumero from './components/InvertirNumero.vue';
+import ElementosComunes from './components/ElementosComunes.vue';
 
 export default {
   components: {
@@ -42,7 +44,8 @@ export default {
     CadenaInvertida,
     Porcentaje,
     ContarImpares,
-    InvertirNumero
+    InvertirNumero,
+    ElementosComunes
   }
 };
 </script>
