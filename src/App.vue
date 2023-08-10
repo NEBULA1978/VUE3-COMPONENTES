@@ -10,6 +10,7 @@
     <CadenaInvertida  />
     <Porcentaje  />
     <ContarImpares  />
+    <InvertirNumero  />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import BuscarCoincidencia from './components/BuscarCoincidencia.vue';
 import CadenaInvertida from './components/CadenaInvertida.vue';
 import Porcentaje from './components/Porcentaje.vue';
 import ContarImpares from './components/ContarImpares.vue';
+import InvertirNumero from './components/InvertirNumero.vue';
 
 export default {
   components: {
@@ -36,7 +38,8 @@ export default {
     BuscarCoincidencia,
     CadenaInvertida,
     Porcentaje,
-    ContarImpares
+    ContarImpares,
+    InvertirNumero
   }
 };
 </script>
