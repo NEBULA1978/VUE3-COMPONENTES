@@ -13,6 +13,7 @@
     <ContarImpares  />
     <InvertirNumero  />
     <ElementosComunes  />
+    <Repeticiones  />
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import Porcentaje from './components/Porcentaje.vue';
 import ContarImpares from './components/ContarImpares.vue';
 import InvertirNumero from './components/InvertirNumero.vue';
 import ElementosComunes from './components/ElementosComunes.vue';
+import Repeticiones from './components/Repeticiones.vue';
 
 export default {
   components: {
@@ -45,7 +47,8 @@ export default {
     Porcentaje,
     ContarImpares,
     InvertirNumero,
-    ElementosComunes
+    ElementosComunes,
+    Repeticiones
   }
 };
 </script>
