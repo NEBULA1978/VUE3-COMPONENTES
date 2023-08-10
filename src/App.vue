@@ -9,6 +9,7 @@
     <BuscarCoincidencia /> <!-- Corrección del nombre del componente -->
     <CadenaInvertida  />
     <Porcentaje  />
+    <ContarImpares  />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import VerificadorPalindromo2 from './components/VerificadorPalindromo2.vue';
 import BuscarCoincidencia from './components/BuscarCoincidencia.vue';
 import CadenaInvertida from './components/CadenaInvertida.vue';
 import Porcentaje from './components/Porcentaje.vue';
+import ContarImpares from './components/ContarImpares.vue';
 
 export default {
   components: {
@@ -33,7 +35,8 @@ export default {
     VerificadorPalindromo2,
     BuscarCoincidencia,
     CadenaInvertida,
-    Porcentaje
+    Porcentaje,
+    ContarImpares
   }
 };
 </script>
