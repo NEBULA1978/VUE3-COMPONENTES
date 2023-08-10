@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Ponemos nombre de funcion -->
     <ContadorImpares />
     <InputFields />
     <Usuarios />
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+// Ponemos nombre Componente
 import ContadorImpares from './components/ContadorImpares.vue';
 import InputFields from './components/InputFields.vue';
 import Usuarios from './components/Usuarios.vue';
@@ -29,6 +31,7 @@ import InvertirNumero from './components/InvertirNumero.vue';
 
 export default {
   components: {
+    // Ponemos nombre de archivo componente del template
     ContadorImpares,
     InputFields,
     Usuarios,
