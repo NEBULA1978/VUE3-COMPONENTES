@@ -17,6 +17,7 @@
     <BuscarLetraMasRepetida  />
     <ContarVocales  />
     <ImprimirBuzz  />
+    <MostrarDivisores  />
   </div>
 </template>
 
@@ -38,6 +39,7 @@ import Repeticiones from './components/Repeticiones.vue';
 import BuscarLetraMasRepetida from './components/BuscarLetraMasRepetida.vue';
 import ContarVocales from './components/ContarVocales.vue';
 import ImprimirBuzz from './components/ImprimirBuzz.vue';
+import MostrarDivisores from './components/MostrarDivisores.vue';
 
 export default {
   components: {
@@ -57,7 +59,8 @@ export default {
     Repeticiones,
     BuscarLetraMasRepetida,
     ContarVocales,
-    ImprimirBuzz
+    ImprimirBuzz,
+    MostrarDivisores
   }
 };
 </script>
